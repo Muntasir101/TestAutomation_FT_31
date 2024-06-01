@@ -13,8 +13,8 @@ time.sleep(5)
 
 search = driver.find_element(By.NAME, "q")
 search.send_keys("Bangladesh")
-time.sleep(3)
+time.sleep(4)
 
 search_button = driver.find_element(By.NAME, "btnK")
 search_button.click()
-time.sleep(5)
+time.sleep(3)
