@@ -11,7 +11,7 @@ driver.maximize_window()
 driver.get("https://tutorialsninja.com/demo/")
 time.sleep(3)
 
-# Step 3: Go to Registration page from My Account
+# Step 3: Go to My Account
 my_account = driver.find_element(By.CSS_SELECTOR, ".list-inline .dropdown .hidden-md")
 my_account.click()
 
